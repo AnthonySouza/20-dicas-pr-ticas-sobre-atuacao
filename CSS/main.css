@@ -1,0 +1,70 @@
+.footer-container {
+    background-color: #f8f8f8;
+    height: auto;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #c5c5c5;
+}
+
+.contact-container {
+    height: auto;
+    width: 100%;
+    padding: 3em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-container .contact-container .rights-container h5 {
+    color: #242424;
+}
+
+.footer-container .contact-container .rights-container h6 {
+    color: #515151;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.footer-container .ed-mizn-logo-container img, .mizn-cursos-logo-container img  {
+    max-width: 200px;
+    height: auto;
+}
+
+.footer-container .contact-info a, p {
+    text-decoration: none;
+    font-weight: 400;
+    color: #00A884!important;
+    display: flex;
+}
+
+.footer-container .contact-info a span, p span {
+    margin-right: 0.5em;
+    color: #00A884;
+}
+
+.footer-container .edmzn-social img {
+    margin: 0.5em;
+}
+
+.footer-container .footer-bottom-container {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.footer-container .footer-bottom-container div {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.footer-container .footer-bottom-container .vertical-line {
+    width: 1px;
+    height: auto;
+    background-color: #cecece;
+}
